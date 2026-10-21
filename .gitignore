@@ -1,0 +1,4 @@
+.chrome-*/
+.tools/
+diagnostics/
+*.mjs
