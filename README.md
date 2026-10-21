@@ -30,11 +30,22 @@
 
 该脚本已通过 Chrome DevTools 动态插入广告节点的回归验证。
 
+## 技术文档
+
+| 文档 | 内容 |
+| --- | --- |
+| [京东首页广告脚本维护手册](./docs/jd-home-ad-maintenance.md) | 当前实测结构、选择器和关闭事件证据、京东改版后的更新与验证步骤 |
+| [通用广告关闭脚本开发流程](./docs/tampermonkey-ad-closer-workflow.md) | 从调试、定位、事件分析到实现、验证和发布的通用流程 |
+
 ## 仓库结构
 
 ```text
 .
+├── docs/
+│   ├── jd-home-ad-maintenance.md
+│   └── tampermonkey-ad-closer-workflow.md
 ├── README.md
+├── CONTRIBUTING.md
 └── userscripts/
     └── jd-home-ad-closer.user.js
 ```

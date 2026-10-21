@@ -2,6 +2,11 @@
 
 感谢为本仓库贡献实用的 Tampermonkey 用户脚本。
 
+新脚本请遵循
+[通用网页首页广告关闭脚本开发流程](./docs/tampermonkey-ad-closer-workflow.md)。
+修改京东首页脚本时，同时参考
+[京东首页广告脚本维护手册](./docs/jd-home-ad-maintenance.md)。
+
 ## 脚本约定
 
 - 每个脚本使用独立的 `.user.js` 文件，统一放在 `userscripts/` 目录。
